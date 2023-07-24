@@ -12,8 +12,9 @@ public class Gerente extends Funcionario {
         this.clave = clave;
     }
 
+    // Sobreescritura de metodos
     public double getBoni() {
-        return super.getSalary();
+        return super.getSalary() + super.getBoni();
     }
 
 }

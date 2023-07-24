@@ -40,7 +40,7 @@ public class Funcionario {
     }
 
     public double getBoni() {
-        return this.salary * 0.10;
+        return this.salary * 0.05;
     }
 
     // constructor aquel metodo publico que retorna el mismo tipo de la clase
