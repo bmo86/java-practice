@@ -9,7 +9,7 @@ public class testFuncionario {
         funcionario.setDocument("444555666");
         funcionario.setSalary(2000);
 
-        System.out.println(funcionario.getSalary());
+        System.out.println(funcionario.getSalary() + " -> " + funcionario.getBoni());
 
     }
 }
