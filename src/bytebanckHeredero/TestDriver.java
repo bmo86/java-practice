@@ -8,8 +8,16 @@ public class TestDriver {
         Gerente gerente = new Gerente();
         gerente.setSalary(10000);
 
+        contador Alex = new contador();
+        Alex.setSalary(5000);
+
         Driverboni d = new Driverboni();
         d.registerSalary(funcionario);
         d.registerSalary(gerente);
+        d.registerSalary(Alex);
+
+
+        
+
     }
 }
