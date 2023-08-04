@@ -2,7 +2,7 @@ package bytebanckHeredero;
 
 public class TestDriver {
     public static void main(String[] args) {
-        Funcionario funcionario = new Funcionario();
+        Funcionario funcionario = new contador();
         funcionario.setSalary(2000);
 
         Gerente gerente = new Gerente();

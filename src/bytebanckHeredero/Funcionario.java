@@ -1,6 +1,6 @@
 package bytebanckHeredero;
 
-public class Funcionario {
+public abstract class Funcionario {
 
     private String name;
     private String document;
@@ -39,9 +39,7 @@ public class Funcionario {
         this.type = type;
     }
 
-    public double getBoni() {
-        return this.salary * 0.05;
-    }
+    public abstract double getBoni();
 
     // constructor aquel metodo publico que retorna el mismo tipo de la clase
     // pueda que lleve parametros o no

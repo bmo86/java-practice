@@ -1,6 +1,6 @@
 package bytebanckHeredero;
 
-public class cuenta {
+public abstract class cuenta {
 
     protected double saldo;
     private int agencia = 1;
@@ -21,9 +21,7 @@ public class cuenta {
         cuenta.total ++;
     }
     
-    public void deposita(double valor) {
-        this.saldo = this.saldo + valor;
-    };
+    public abstract void deposita(double valor);
 
     public boolean saca(double valor) {
         if(this.saldo >= valor) {

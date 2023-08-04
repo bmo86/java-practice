@@ -2,7 +2,7 @@ package bytebanckHeredero;
 
 public class contador extends Funcionario {
 
-    @Override
+	@Override
     public double getBoni() {
         return 200;
     }

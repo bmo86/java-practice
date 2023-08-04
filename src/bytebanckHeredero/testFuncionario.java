@@ -3,7 +3,7 @@ package bytebanckHeredero;
 public class testFuncionario {
     public static void main(String[] args) {
         // new object
-        Funcionario funcionario = new Funcionario();
+        Funcionario funcionario = new contador();
         // new Funcionario
         funcionario.setName("Victor");
         funcionario.setDocument("444555666");
